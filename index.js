@@ -2666,7 +2666,7 @@ function openProductModal(productId) {
     // Update WhatsApp link
     const productName = encodeURIComponent(product.title);
     const price = encodeURIComponent(product.price);
-    whatsappBtn.href = `https://wa.me/+1(407)205-4399?text=I'm%20interested%20in%20${productName}%20(${price})`;
+    whatsappBtn.href = `https://wa.me/4072054399?text=I'm%20interested%20in%20${productName}%20(${price})`;
     
     // Show modal with animation
     modal.style.display = 'flex';
